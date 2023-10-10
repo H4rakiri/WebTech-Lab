@@ -8,7 +8,7 @@
       rel="stylesheet"
     />
   </head>
-  <body class="bg-gray-700 font-montserrat">
+  <body class="bg-[101010] font-montserrat">
     <div
       class="bg-violet-500 flex flex-row justify justify-center items-center gap-3"
     >
@@ -44,7 +44,7 @@
       </div>
     </div>
     <div
-      class="w-full flex flex-row gap-72 justify justify-center bg-purple-800"
+      class="w-full flex flex-row gap-96 justify justify-center bg-purple-800"
     >
       <a class="text-white" href="#">раздел 1</a>
       <a class="text-white" href="#">раздел 2</a>
@@ -57,24 +57,40 @@
     <div class="flex flex-row px-5 gap-5">
       <!-- Левый столбец начало -->
       <div
-        class="flex flex-col w-[1600px] bg-green-600 text-white font-bold justify-start items-center text-xl py-3 gap-3"
+        class="flex flex-col h-[268px] text-black font-bold justify-start items-center text-xl gap-1 outline-none outline-white rounded-md"
       >
-        <a href="shops.html">Магазины</a>
-        <a href="restaurants.html">Рестораны</a>
-        <a href="entertainments.html">Развлечения</a>
-        <a href="map.html">Карта</a>
+      <a href="shops.html">
+        <div class="flex justify justify-center items-center h-16 w-[300px] bg-cover rounded-md" style="background-image: url(shops.jpg);" >
+        Магазины
+      </div>
+    </a>
+      <a href="restaurants.html">
+        <div class="flex justify justify-center items-center h-16 w-[300px] bg-cover rounded-md" style="background-image: url(restaurant.jpg);" >
+        Рестораны
+      </div>
+      </a>
+        <a href="entertainments.html">
+          <div class="flex justify justify-center items-center h-16 w-[300px] bg-cover rounded-md" style="background-image: url(entertainment.jpeg);" >
+            Развлечения
+          </div>
+        </a>
+        <a href="map.html">
+          <div class="flex justify justify-center items-center h-16 w-[300px] bg-cover rounded-md" style="background-image: url(map.png);" >
+          Карта
+        </div>
+        </a>
       </div>
       <!-- Левый столбец конец -->
 
       <!-- Центральный столбец начало -->
-      <div class="flex flex-col space-y-3">
-        <h1 class="flex justify-center font-bold text-white text-3xl">
+      <div class="flex flex-col space-y-3 text-[E1E3E6] ">
+        <h1 class="flex justify-center font-bold text-3xl">
           Добро пожаловать в АТРИУМ!
         </h1>
 
         <div class="flex flex-row w-full gap-5">
-          <img class="w-[300px]" src="atrium.jpg" />
-          <p class="text-white text-justify">
+          <img class="w-[300px] h-[180px]" src="atrium.jpg" />
+          <p class="text-justify">
             Торгово-развлекательный Комплекс АТРИУМ расположен в самом центре
             Москвы – прямо на Садовом кольце. Работает ежедневно, без перерыва
             на обед. Большинство магазинов открыты с 10.00 до 23.00. Проект
@@ -129,7 +145,7 @@
           <li>Магазины электроники и техники</li>
         </ul>
 
-        <p class="text-justify">
+        <p class="text-justify font-semibold gap-y-5">
           ТРК «АТРИУМ» присоединяется к Кодексу поведения участников российского
           рынка коммерческой недвижимости, розничной торговли, сферы услуг и
           гастрономии в период пандемии COVID-19.
@@ -139,10 +155,10 @@
       <!-- Правый столбец начало -->
       <div class="flex flex-col justify-start items-center w-[1600px] py-3">
         <div
-          class="flex flex-col gap-2 justify-center items-center w-[220px] h-[85px] outline-none outline-white rounded-md"
+          class="flex flex-col gap-2 justify-center items-center w-[220px] h-[85px] rounded-md"
         >
           <input
-            class="w-[200px] rounded-sm"
+            class="w-[200px] rounded-sm text-black outline-none outline-black"
             type="text"
             placeholder=" Поиск"
           />
@@ -178,12 +194,12 @@
     </div>
     <!-- Центральный столбец конец -->
 
-    <footer class="flex flex-col justify-center items-center py-3">
+    <footer class="bg-violet-500 flex flex-col justify-center items-center py-3">
       <img
         class="w-[100px] aspect-square object-cover"
         src="bongo-cat-typing.gif"
       />
-      <p>©Popov Artem, 2023</p>
+      <p class="text-white font-semibold">©Popov Artem, 2023, All Rights Reserved</p>
     </footer>
   </body>
 </html>

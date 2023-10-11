@@ -8,10 +8,8 @@
       rel="stylesheet"
     />
   </head>
-  <body class="bg-[101010] font-montserrat">
-    <div
-      class="bg-violet-500 flex flex-row justify justify-center items-center gap-3"
-    >
+  <body class="bg-[CCCCCC] font-montserrat">
+    <div class="bg-violet-500 flex flex-row justify-center items-center gap-3">
       <img src="logo.png" width="300" />
       <p class="text-white font-bold text-4xl">
         Торгово-развлекательный Комплекс
@@ -44,46 +42,54 @@
       </div>
     </div>
     <div
-      class="w-full flex flex-row gap-96 justify justify-center bg-purple-800"
+      class="text-white w-full flex flex-row gap-72 justify-center bg-purple-800"
     >
-      <a class="text-white" href="#">раздел 1</a>
-      <a class="text-white" href="#">раздел 2</a>
-      <a class="text-white" href="#">раздел 3</a>
-      <a class="text-white" href="#">раздел 4</a>
+      <a href="#">раздел 1</a>
+      <a href="#">раздел 2</a>
+      <a href="#">раздел 3</a>
+      <a href="#">раздел 4</a>
     </div>
 
     <br />
 
-    <div class="flex flex-row px-5 gap-5">
+    <div class="flex flex-row justify-between gap-5 px-5">
       <!-- Левый столбец начало -->
       <div
-        class="flex flex-col h-[268px] text-black font-bold justify-start items-center text-xl gap-1 outline-none outline-white rounded-md"
+        class="flex flex-col h-[268px] text-black font-bold justify-start items-center text-xl gap-1 rounded-md"
       >
-      <a href="shops.html">
-        <div class="flex justify justify-center items-center h-16 w-[300px] bg-cover rounded-md" style="background-image: url(shops.jpg);" >
-        Магазины
-      </div>
-    </a>
-      <a href="restaurants.html">
-        <div class="flex justify justify-center items-center h-16 w-[300px] bg-cover rounded-md" style="background-image: url(restaurant.jpg);" >
-        Рестораны
-      </div>
-      </a>
+        <a href="shops.html">
+          <div
+            class="flex justify-center items-center h-16 w-[300px] bg-gradient-to-br from-slate-100 to-violet-300 rounded-md hover:text-2xl hover:bg-gradient-to-br hover:from-black hover:to-violet-500 hover:text-white transition outline-none"
+          >
+            Магазины
+          </div>
+        </a>
+        <a href="restaurants.html">
+          <div
+            class="flex justify-center px-3 items-center h-16 w-[300px] bg-gradient-to-br from-slate-100 to-violet-300 rounded-md hover:text-2xl hover:bg-gradient-to-br hover:from-black hover:to-violet-500 hover:text-white transition outline-none"
+          >
+            Рестораны
+          </div>
+        </a>
         <a href="entertainments.html">
-          <div class="flex justify justify-center items-center h-16 w-[300px] bg-cover rounded-md" style="background-image: url(entertainment.jpeg);" >
+          <div
+            class="flex justify-center items-center h-16 w-[300px] bg-gradient-to-br from-slate-100 to-violet-300 rounded-md hover:text-2xl hover:bg-gradient-to-br hover:from-black hover:to-violet-500 hover:text-white transition outline-none"
+          >
             Развлечения
           </div>
         </a>
         <a href="map.html">
-          <div class="flex justify justify-center items-center h-16 w-[300px] bg-cover rounded-md" style="background-image: url(map.png);" >
-          Карта
-        </div>
+          <div
+            class="flex justify-center items-center h-16 w-[300px] bg-gradient-to-br from-slate-100 to-violet-300 rounded-md hover:text-2xl hover:bg-gradient-to-br hover:from-black hover:to-violet-500 hover:text-white transition outline-none"
+          >
+            Карта
+          </div>
         </a>
       </div>
       <!-- Левый столбец конец -->
 
       <!-- Центральный столбец начало -->
-      <div class="flex flex-col space-y-3 text-[E1E3E6] ">
+      <div class="flex flex-col space-y-3 text-black">
         <h1 class="flex justify-center font-bold text-3xl">
           Добро пожаловать в АТРИУМ!
         </h1>
@@ -153,12 +159,12 @@
       </div>
 
       <!-- Правый столбец начало -->
-      <div class="flex flex-col justify-start items-center w-[1600px] py-3">
+      <div class="flex flex-col justify-start items-center py-3">
         <div
           class="flex flex-col gap-2 justify-center items-center w-[220px] h-[85px] rounded-md"
         >
           <input
-            class="w-[200px] rounded-sm text-black outline-none outline-black"
+            class="w-[200px] rounded-sm text-black caret-violet-500"
             type="text"
             placeholder=" Поиск"
           />
@@ -194,12 +200,16 @@
     </div>
     <!-- Центральный столбец конец -->
 
-    <footer class="bg-violet-500 flex flex-col justify-center items-center py-3">
+    <footer
+      class="bg-violet-500 flex flex-col justify-center items-center py-3"
+    >
       <img
         class="w-[100px] aspect-square object-cover"
         src="bongo-cat-typing.gif"
       />
-      <p class="text-white font-semibold">©Popov Artem, 2023, All Rights Reserved</p>
+      <p class="text-white font-semibold">
+        ©Popov Artem, 2023, All Rights Reserved
+      </p>
     </footer>
   </body>
 </html>

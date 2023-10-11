@@ -773,6 +773,11 @@ video {
   font-family: Montserrat;
 }
 
+@font-face {
+  font-family: 'Halvar';
+  src:  url('./dist/Halvar-Mittelschrift-Medium-Web.woff2') format('woff2');
+}
+
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;

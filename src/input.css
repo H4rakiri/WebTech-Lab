@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@font-face {
+    font-family: 'Halvar';
+    src:  url('C:/Users/H4rakiri/Documents/GitHub/WebTech-Lab/dist/Halvar-Mittelschrift-Medium-Web.woff2') format('woff2');
+}

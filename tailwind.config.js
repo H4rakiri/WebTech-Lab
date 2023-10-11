@@ -7,7 +7,8 @@ module.exports = {
         check: 'url("check.png")',
       },
       fontFamily: {
-        'montserrat': ['Montserrat']
+        'montserrat': ['Montserrat'],
+        'halvarmittel': ['HalvarMittel']
       },
     },
   },

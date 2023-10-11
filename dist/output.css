@@ -810,6 +810,10 @@ video {
   text-align: justify;
 }
 
+.font-halvarmittel {
+  font-family: HalvarMittel;
+}
+
 .font-montserrat {
   font-family: Montserrat;
 }
@@ -899,6 +903,12 @@ video {
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
+}
+
+@font-face {
+  font-family: 'Halvar';
+
+  src:  url('C:/Users/H4rakiri/Documents/GitHub/WebTech-Lab/dist/Halvar-Mittelschrift-Medium-Web.woff2') format('woff2');
 }
 
 .hover\:rotate-3:hover {

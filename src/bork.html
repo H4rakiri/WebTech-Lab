@@ -8,7 +8,7 @@
       rel="stylesheet"
     />
   </head>
-  <body class="bg-[CCCCCC] font-montserrat">
+  <body class="bg-[CCCCCC] font-montserrat h-[1200px]">
     <div
       class="bg-violet-500 flex flex-row justify justify-center items-center gap-3"
     >
@@ -44,7 +44,7 @@
       </div>
     </div>
     <div
-      class="text-white w-full flex flex-row gap-72 justify justify-center bg-purple-800"
+      class="text-white w-full flex flex-row justify justify-center gap-72 bg-purple-800 mb-5"
     >
       <a href="#">раздел 1</a>
       <a href="#">раздел 2</a>
@@ -52,9 +52,7 @@
       <a href="#">раздел 4</a>
     </div>
 
-    <br />
-
-    <div class="flex flex-row justify-between px-5 h-full">
+    <div class="flex flex-row justify-between px-5 h-full gap-5">
       <!-- Левый столбец начало -->
       <div
         class="flex flex-col h-[268px] text-[101010] font-bold justify-start items-center text-xl gap-1 outline-none rounded-md"
@@ -91,55 +89,67 @@
       <!-- Левый столбец конец -->
 
       <!-- Центральный столбец начало -->
-      <div class="text-[101010] w-full px-5">
-        <p class="text-4xl flex justify-center font-bold">
-          Магазины в ТЦ Атриум
-        </p>
-        <div class="grid grid-cols-4 gap-5 h-48 py-5">
-          <a
-            href="simplewine.html"
-            class="bg-white flex flex-col justify-center items-center py-5 text-black rounded-md hover:scale-110 hover:rotate-3 transition-all shadow-lg"
-          >
-            <img src="Images/simplewine.jpg" />
-          </a>
-          <a
-            href="bork.html"
-            class="bg-white flex flex-col justify-center items-center py-5 text-black rounded-md hover:scale-110 hover:rotate-3 transition-all shadow-lg"
-          >
-            <img src="Images/bork.png" />
-          </a>
-          <div
-            class="bg-white flex flex-col justify-center items-center py-5 text-black rounded-md hover:scale-110 hover:rotate-3 transition-all shadow-lg"
-          >
-            <img src="Images/lensmaster.jpg" />
+      <div class="flex flex-col w-full">
+        <div class="bg-white h-[150px] flex justify-center rounded-lg">
+          <img class="h-[150px]" src="Images/bork.png" />
+        </div>
+
+        <div class="flex flex-row gap-5 py-3">
+          <div class="">
+            <img
+              src="Images/bork1.webp"
+              class="h-[350px] rounded-lg shadow-2xl"
+            />
           </div>
-          <div
-            class="bg-[71002e] flex flex-col justify-center items-center py-5 text-black rounded-md hover:scale-110 hover:rotate-3 transition-all shadow-lg"
-          >
-            <img src="Images/ildebote.jpg" />
-          </div>
-          <div
-            class="bg-white flex flex-col justify-center items-center py-5 text-black rounded-md hover:scale-110 hover:rotate-3 transition-all shadow-lg"
-          >
-            <img src="Images/vassaco.png" />
-          </div>
-          <div
-            class="bg-white flex flex-col justify-center items-center py-5 text-black rounded-md hover:scale-110 hover:rotate-3 transition-all shadow-lg"
-          >
-            <img src="Images/sneakerbox.jpg" />
-          </div>
-          <div
-            class="bg-white flex flex-col justify-center items-center py-5 text-black rounded-md hover:scale-110 hover:rotate-3 transition-all shadow-lg"
-          >
-            <img src="Images/rendezvous.jpg" />
-          </div>
-          <div
-            class="bg-[023D79] flex flex-col justify-center items-center py-5 text-black rounded-md hover:scale-110 hover:rotate-3 transition-all shadow-lg"
-          >
-            <img src="Images/letual.jpg" />
+          <div class="flex-col justify-start">
+            <p class="text-4xl flex justify-start font-bold">BORK</p>
+
+            <div class="flex flex-row w-full">
+              <span class="font-bold">
+                Ссылка на официальный сайт магазина:&nbsp;
+              </span>
+              <a
+                href="http://www.bork.ru/"
+                class="text-black hover:text-violet-500 italic hover:font-bold"
+              >
+              bork.ru
+              </a>
+            </div>
+            <span class="font-bold"> Род деятельности: </span>
+            <span> магазин бытовой техники и электроники </span><br />
+            <span class="font-bold"> Площадь помещения: </span>
+            <span>152 м<sup>2</sup></span><br />
+            <p class="text-xl font-bold flex mt-5">Стоимость аренды:</p>
+            <br>
+            <span class="text-4xl font-bold">1200 руб/м<sup>2</sup></span>
           </div>
         </div>
+        <div class="grid grid-cols-3 w-full gap-2">
+          <button class="focus:scale-125 transition-all shadow-xl ">
+            <img src="Images/bork2.jpg" class="rounded-lg h-[320px] object-cover w-full" />
+          </button>
+          <button class="focus:scale-125 transition-all shadow-xl ">
+            <img src="Images/bork3.webp" class="rounded-lg h-[320px] object-cover w-full" />
+          </button>
+          <button class="focus:scale-125 transition-all shadow-xl ">
+            <img src="Images/bork4.webp" class="rounded-lg h-[320px] object-cover w-full" />
+          </button>
+          <button class="focus:scale-125 transition-all shadow-xl ">
+            <img src="Images/bork5.jpg" class="rounded-lg h-[320px] object-cover w-full" />
+          </button>
+          <button class="focus:scale-125 transition-all shadow-xl ">
+            <img src="Images/bork6.webp" class="rounded-lg h-[320px] object-cover w-full" />
+          </button>
+          <button class="focus:scale-125 transition-all shadow-xl ">
+            <img src="Images/bork7.webp" class="rounded-lg h-[320px] object-cover w-full" />
+          </button>
+        </div>
       </div>
+      <!-- Название
+      адрес сайта
+      площадь
+      виды деятельности -->
+
       <!-- Центральный столбец конец -->
 
       <!-- Правый столбец начало -->
